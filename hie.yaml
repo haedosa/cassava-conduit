@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:cassava-conduit"
+
+    - path: "quickcheck"
+      component: "cassava-conduit:test:quickcheck"
+
+    - path: "benchmarks/Main.hs"
+      component: "cassava-conduit:bench:benchmarks"
